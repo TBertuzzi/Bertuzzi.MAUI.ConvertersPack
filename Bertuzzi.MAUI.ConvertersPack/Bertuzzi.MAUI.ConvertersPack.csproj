@@ -15,6 +15,25 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		
+		<PackageIcon>ConvertersPackIcon.png</PackageIcon>
+		<Authors>tbertuzzi</Authors>
+		<Company>tbertuzzi</Company>
+		<Description>Useful converters for MAUI</Description>
+		<Copyright>Copyright ©2022 tbertuzzi</Copyright>
+		<PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
+		<PackageTags>maui validation converter behavior behaviors converters</PackageTags>
+		<PackageProjectUrl>https://github.com/TBertuzzi/Bertuzzi.MAUI.ConvertersPack</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/TBertuzzi/Bertuzzi.MAUI.ConvertersPack</RepositoryUrl>
+		<PackageIconUrl>https://github.com/TBertuzzi/Bertuzzi.MAUI.ConvertersPack/blob/master/Resources/ConvertersPackIcon.png?raw=true</PackageIconUrl>
+		
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\Resources\ConvertersPackIcon.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 </Project>
