@@ -70,3 +70,5 @@ You just need to add the reference in your xaml file.
 
 
 The complete example can be downloaded here: <https://github.com/TBertuzzi/Xamarin.Forms.ConvertersPack/tree/master/MAUIConvertersPack>
+
+Base on my package : https://github.com/TBertuzzi/Xamarin.Forms.ConvertersPack
